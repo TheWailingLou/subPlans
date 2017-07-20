@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo, .dropDown, .logIn {
+  border: 1px solid #000;
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  height: 10vh;
+  /*width: 30vw;*/
+}
