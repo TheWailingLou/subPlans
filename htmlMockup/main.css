@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBox {
+  border: 1px solid #000;
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.wholeDropdownBox {
+  position: relative;
+  display: inline-block;
+}
+
+.mainDropdown {
+  display: none;
+  width: 100px;
+  background: #000;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdownOptionMain {
+  color: #FFF;
+  display: block;
+  margin: 10px;
+}
+
+.dropdownButton, .logInButton {
+  border: 1px solid #000;
+  border-radius: 0;
+  width: 100px;
+  height: 20px;
+}
+
+/*MAIN SECTION*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
